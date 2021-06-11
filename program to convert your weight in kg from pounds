@@ -1,0 +1,4 @@
+name = input("enter your name: ")
+lb = int(input("enter your age in pounds(lbs): "))
+kg = lb * 0.45359237
+print(f"{name}'s weight in kg is {kg}")
