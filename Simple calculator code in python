@@ -1,0 +1,14 @@
+a=int(input("enter first number: "))
+b=int(input("enter second number: "))
+print("select your choice: \n1.add \n2.subtract \n3.multiply \n4.divide ")
+c=int(input("enter your choice: "))
+if (c==1):
+    print(f"your answer is {a+b}")
+elif(c==2):
+    print(f"your answer is {a-b}")
+elif(c==3):
+    print(f"your answer is {a*b}")
+elif(c==4):
+    print(f"your answer is {a/b}")
+else:
+    print("invalid choice")
