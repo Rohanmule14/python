@@ -1,0 +1,16 @@
+import random
+random_num = random.randint(1, 100)
+user_input=None
+guess_count = 0
+while user_input != random_num:
+    user_input = int(input("Enter the correct number: "))
+    guess_count +=1
+    if user_input == random_num:
+        print("**********You guessed it right!**********")
+    else:
+        if user_input<random_num:
+            print("You entered a smaller number:(")
+        else:
+            print("You entered a larger number:(")
+
+print(f"*****You got the right number in {guess_count} guesses!*****")
